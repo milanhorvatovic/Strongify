@@ -8,7 +8,7 @@
 
 /// This file is code-generated, don't modify.
 
-
+//	MARK: - Context1
 /// Creates a closure that automatically deals with weak-strong dance
 ///
 /// - Parameters:
@@ -117,6 +117,7 @@ public func strongify<Context1: AnyObject, Argument1, Argument2, Argument3, Argu
     }
 }
 
+//	MARK: - Context1, Context2
 /// Creates a closure that automatically deals with weak-strong dance
 ///
 /// - Parameters:
@@ -234,6 +235,7 @@ public func strongify<Context1: AnyObject, Context2: AnyObject, Argument1, Argum
     }
 }
 
+//	MARK: - Context1, Context2, Context3
 /// Creates a closure that automatically deals with weak-strong dance
 ///
 /// - Parameters:
@@ -360,6 +362,7 @@ public func strongify<Context1: AnyObject, Context2: AnyObject, Context3: AnyObj
     }
 }
 
+//	MARK: - Context1, Context2, Context3, Context4
 /// Creates a closure that automatically deals with weak-strong dance
 ///
 /// - Parameters:
@@ -495,6 +498,7 @@ public func strongify<Context1: AnyObject, Context2: AnyObject, Context3: AnyObj
     }
 }
 
+//	MARK: - Context1, Context2, Context3, Context4, Context5
 /// Creates a closure that automatically deals with weak-strong dance
 ///
 /// - Parameters:
@@ -639,6 +643,7 @@ public func strongify<Context1: AnyObject, Context2: AnyObject, Context3: AnyObj
     }
 }
 
+//	MARK: - Context1, Context2, Context3, Context4, Context5, Context6
 /// Creates a closure that automatically deals with weak-strong dance
 ///
 /// - Parameters:
@@ -792,6 +797,7 @@ public func strongify<Context1: AnyObject, Context2: AnyObject, Context3: AnyObj
     }
 }
 
+//	MARK: - Context1, Context2, Context3, Context4, Context5, Context6, Context7
 /// Creates a closure that automatically deals with weak-strong dance
 ///
 /// - Parameters:
@@ -954,6 +960,7 @@ public func strongify<Context1: AnyObject, Context2: AnyObject, Context3: AnyObj
     }
 }
 
+//	MARK: - Context1, Context2, Context3, Context4, Context5, Context6, Context7, Context8
 /// Creates a closure that automatically deals with weak-strong dance
 ///
 /// - Parameters:
@@ -1124,4 +1131,3 @@ public func strongify<Context1: AnyObject, Context2: AnyObject, Context3: AnyObj
         closure(strongContext1, strongContext2, strongContext3, strongContext4, strongContext5, strongContext6, strongContext7, strongContext8, argument1, argument2, argument3, argument4, argument5, argument6, argument7, argument8)
     }
 }
-
