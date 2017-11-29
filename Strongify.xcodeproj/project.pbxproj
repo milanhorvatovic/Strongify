@@ -7,32 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E45E0711F28738A00F88A65 /* StrongifyReturnOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E45E0701F28738A00F88A65 /* StrongifyReturnOptional.swift */; };
-		3E45E0721F28738A00F88A65 /* StrongifyReturnOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E45E0701F28738A00F88A65 /* StrongifyReturnOptional.swift */; };
-		3E45E0731F28738A00F88A65 /* StrongifyReturnOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E45E0701F28738A00F88A65 /* StrongifyReturnOptional.swift */; };
-		3E45E0741F28738A00F88A65 /* StrongifyReturnOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E45E0701F28738A00F88A65 /* StrongifyReturnOptional.swift */; };
-		3E45E0761F287AC000F88A65 /* StrongifyFatalErrorReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E45E0751F287AC000F88A65 /* StrongifyFatalErrorReturn.swift */; };
-		3E45E0771F287AC000F88A65 /* StrongifyFatalErrorReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E45E0751F287AC000F88A65 /* StrongifyFatalErrorReturn.swift */; };
-		3E45E0781F287AC000F88A65 /* StrongifyFatalErrorReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E45E0751F287AC000F88A65 /* StrongifyFatalErrorReturn.swift */; };
-		3E45E0791F287AC000F88A65 /* StrongifyFatalErrorReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E45E0751F287AC000F88A65 /* StrongifyFatalErrorReturn.swift */; };
-		3E45E07B1F287B6300F88A65 /* StrongifyFatalErrorReturnOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E45E07A1F287B6300F88A65 /* StrongifyFatalErrorReturnOptional.swift */; };
-		3E45E07C1F287B6300F88A65 /* StrongifyFatalErrorReturnOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E45E07A1F287B6300F88A65 /* StrongifyFatalErrorReturnOptional.swift */; };
-		3E45E07D1F287B6300F88A65 /* StrongifyFatalErrorReturnOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E45E07A1F287B6300F88A65 /* StrongifyFatalErrorReturnOptional.swift */; };
-		3E45E07E1F287B6300F88A65 /* StrongifyFatalErrorReturnOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E45E07A1F287B6300F88A65 /* StrongifyFatalErrorReturnOptional.swift */; };
-		3EA052A11F27DDE70007D8D8 /* StrongifyFatalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA0529F1F27DDE70007D8D8 /* StrongifyFatalError.swift */; };
-		3EA052A21F27DDE70007D8D8 /* StrongifyFatalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA0529F1F27DDE70007D8D8 /* StrongifyFatalError.swift */; };
-		3EA052A31F27DDE70007D8D8 /* StrongifyFatalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA0529F1F27DDE70007D8D8 /* StrongifyFatalError.swift */; };
-		3EA052A41F27DDE70007D8D8 /* StrongifyFatalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA0529F1F27DDE70007D8D8 /* StrongifyFatalError.swift */; };
-		3EA052A51F27DDE70007D8D8 /* StrongifyReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA052A01F27DDE70007D8D8 /* StrongifyReturn.swift */; };
-		3EA052A61F27DDE70007D8D8 /* StrongifyReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA052A01F27DDE70007D8D8 /* StrongifyReturn.swift */; };
-		3EA052A71F27DDE70007D8D8 /* StrongifyReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA052A01F27DDE70007D8D8 /* StrongifyReturn.swift */; };
-		3EA052A81F27DDE70007D8D8 /* StrongifyReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA052A01F27DDE70007D8D8 /* StrongifyReturn.swift */; };
+		3E756FF81FCF14810098A802 /* Strongify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FEC1FCF14810098A802 /* Strongify.swift */; };
+		3E756FF91FCF14810098A802 /* Strongify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FEC1FCF14810098A802 /* Strongify.swift */; };
+		3E756FFA1FCF14810098A802 /* Strongify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FEC1FCF14810098A802 /* Strongify.swift */; };
+		3E756FFB1FCF14810098A802 /* Strongify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FEC1FCF14810098A802 /* Strongify.swift */; };
+		3E756FFC1FCF14810098A802 /* StrongifyFatalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FED1FCF14810098A802 /* StrongifyFatalError.swift */; };
+		3E756FFD1FCF14810098A802 /* StrongifyFatalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FED1FCF14810098A802 /* StrongifyFatalError.swift */; };
+		3E756FFE1FCF14810098A802 /* StrongifyFatalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FED1FCF14810098A802 /* StrongifyFatalError.swift */; };
+		3E756FFF1FCF14810098A802 /* StrongifyFatalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FED1FCF14810098A802 /* StrongifyFatalError.swift */; };
+		3E7570001FCF14810098A802 /* StrongifyFatalErrorReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FEE1FCF14810098A802 /* StrongifyFatalErrorReturn.swift */; };
+		3E7570011FCF14810098A802 /* StrongifyFatalErrorReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FEE1FCF14810098A802 /* StrongifyFatalErrorReturn.swift */; };
+		3E7570021FCF14810098A802 /* StrongifyFatalErrorReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FEE1FCF14810098A802 /* StrongifyFatalErrorReturn.swift */; };
+		3E7570031FCF14810098A802 /* StrongifyFatalErrorReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FEE1FCF14810098A802 /* StrongifyFatalErrorReturn.swift */; };
+		3E7570041FCF14810098A802 /* StrongifyFatalErrorReturnOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FEF1FCF14810098A802 /* StrongifyFatalErrorReturnOptional.swift */; };
+		3E7570051FCF14810098A802 /* StrongifyFatalErrorReturnOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FEF1FCF14810098A802 /* StrongifyFatalErrorReturnOptional.swift */; };
+		3E7570061FCF14810098A802 /* StrongifyFatalErrorReturnOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FEF1FCF14810098A802 /* StrongifyFatalErrorReturnOptional.swift */; };
+		3E7570071FCF14810098A802 /* StrongifyFatalErrorReturnOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FEF1FCF14810098A802 /* StrongifyFatalErrorReturnOptional.swift */; };
+		3E7570081FCF14810098A802 /* StrongifyFatalErrorReturnOptionalThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FF01FCF14810098A802 /* StrongifyFatalErrorReturnOptionalThrows.swift */; };
+		3E7570091FCF14810098A802 /* StrongifyFatalErrorReturnOptionalThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FF01FCF14810098A802 /* StrongifyFatalErrorReturnOptionalThrows.swift */; };
+		3E75700A1FCF14810098A802 /* StrongifyFatalErrorReturnOptionalThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FF01FCF14810098A802 /* StrongifyFatalErrorReturnOptionalThrows.swift */; };
+		3E75700B1FCF14810098A802 /* StrongifyFatalErrorReturnOptionalThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FF01FCF14810098A802 /* StrongifyFatalErrorReturnOptionalThrows.swift */; };
+		3E75700C1FCF14810098A802 /* StrongifyFatalErrorReturnThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FF11FCF14810098A802 /* StrongifyFatalErrorReturnThrows.swift */; };
+		3E75700D1FCF14810098A802 /* StrongifyFatalErrorReturnThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FF11FCF14810098A802 /* StrongifyFatalErrorReturnThrows.swift */; };
+		3E75700E1FCF14810098A802 /* StrongifyFatalErrorReturnThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FF11FCF14810098A802 /* StrongifyFatalErrorReturnThrows.swift */; };
+		3E75700F1FCF14810098A802 /* StrongifyFatalErrorReturnThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FF11FCF14810098A802 /* StrongifyFatalErrorReturnThrows.swift */; };
+		3E7570101FCF14810098A802 /* StrongifyFatalErrorThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FF21FCF14810098A802 /* StrongifyFatalErrorThrows.swift */; };
+		3E7570111FCF14810098A802 /* StrongifyFatalErrorThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FF21FCF14810098A802 /* StrongifyFatalErrorThrows.swift */; };
+		3E7570121FCF14810098A802 /* StrongifyFatalErrorThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FF21FCF14810098A802 /* StrongifyFatalErrorThrows.swift */; };
+		3E7570131FCF14810098A802 /* StrongifyFatalErrorThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FF21FCF14810098A802 /* StrongifyFatalErrorThrows.swift */; };
+		3E7570141FCF14810098A802 /* StrongifyReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FF31FCF14810098A802 /* StrongifyReturn.swift */; };
+		3E7570151FCF14810098A802 /* StrongifyReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FF31FCF14810098A802 /* StrongifyReturn.swift */; };
+		3E7570161FCF14810098A802 /* StrongifyReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FF31FCF14810098A802 /* StrongifyReturn.swift */; };
+		3E7570171FCF14810098A802 /* StrongifyReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FF31FCF14810098A802 /* StrongifyReturn.swift */; };
+		3E7570181FCF14810098A802 /* StrongifyReturnOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FF41FCF14810098A802 /* StrongifyReturnOptional.swift */; };
+		3E7570191FCF14810098A802 /* StrongifyReturnOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FF41FCF14810098A802 /* StrongifyReturnOptional.swift */; };
+		3E75701A1FCF14810098A802 /* StrongifyReturnOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FF41FCF14810098A802 /* StrongifyReturnOptional.swift */; };
+		3E75701B1FCF14810098A802 /* StrongifyReturnOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FF41FCF14810098A802 /* StrongifyReturnOptional.swift */; };
+		3E75701C1FCF14810098A802 /* StrongifyReturnOptionalThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FF51FCF14810098A802 /* StrongifyReturnOptionalThrows.swift */; };
+		3E75701D1FCF14810098A802 /* StrongifyReturnOptionalThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FF51FCF14810098A802 /* StrongifyReturnOptionalThrows.swift */; };
+		3E75701E1FCF14810098A802 /* StrongifyReturnOptionalThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FF51FCF14810098A802 /* StrongifyReturnOptionalThrows.swift */; };
+		3E75701F1FCF14810098A802 /* StrongifyReturnOptionalThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FF51FCF14810098A802 /* StrongifyReturnOptionalThrows.swift */; };
+		3E7570201FCF14810098A802 /* StrongifyReturnThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FF61FCF14810098A802 /* StrongifyReturnThrows.swift */; };
+		3E7570211FCF14810098A802 /* StrongifyReturnThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FF61FCF14810098A802 /* StrongifyReturnThrows.swift */; };
+		3E7570221FCF14810098A802 /* StrongifyReturnThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FF61FCF14810098A802 /* StrongifyReturnThrows.swift */; };
+		3E7570231FCF14810098A802 /* StrongifyReturnThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FF61FCF14810098A802 /* StrongifyReturnThrows.swift */; };
+		3E7570241FCF14810098A802 /* StrongifyThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FF71FCF14810098A802 /* StrongifyThrows.swift */; };
+		3E7570251FCF14810098A802 /* StrongifyThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FF71FCF14810098A802 /* StrongifyThrows.swift */; };
+		3E7570261FCF14810098A802 /* StrongifyThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FF71FCF14810098A802 /* StrongifyThrows.swift */; };
+		3E7570271FCF14810098A802 /* StrongifyThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E756FF71FCF14810098A802 /* StrongifyThrows.swift */; };
 		52D6D9871BEFF229002C0205 /* Strongify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* Strongify.framework */; };
-		52D6D9981BEFF375002C0205 /* Strongify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D6D9961BEFF375002C0205 /* Strongify.swift */; };
 		52D6D99B1BEFF375002C0205 /* StrongifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D6D9971BEFF375002C0205 /* StrongifyTests.swift */; };
-		52D6D9EA1BEFFFA4002C0205 /* Strongify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D6D9961BEFF375002C0205 /* Strongify.swift */; };
-		52D6DA091BF00081002C0205 /* Strongify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D6D9961BEFF375002C0205 /* Strongify.swift */; };
-		52D6DA261BF00118002C0205 /* Strongify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D6D9961BEFF375002C0205 /* Strongify.swift */; };
 		DD7502861C68FDDC006590AF /* StrongifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D6D9971BEFF375002C0205 /* StrongifyTests.swift */; };
 		DD7502881C68FEDE006590AF /* Strongify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6DA0F1BF000BD002C0205 /* Strongify.framework */; };
 		DD7502921C690C7A006590AF /* Strongify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D9F01BEFFFBE002C0205 /* Strongify.framework */; };
@@ -64,14 +88,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3E45E0701F28738A00F88A65 /* StrongifyReturnOptional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StrongifyReturnOptional.swift; path = Sources/StrongifyReturnOptional.swift; sourceTree = "<group>"; };
-		3E45E0751F287AC000F88A65 /* StrongifyFatalErrorReturn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StrongifyFatalErrorReturn.swift; path = Sources/StrongifyFatalErrorReturn.swift; sourceTree = "<group>"; };
-		3E45E07A1F287B6300F88A65 /* StrongifyFatalErrorReturnOptional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StrongifyFatalErrorReturnOptional.swift; path = Sources/StrongifyFatalErrorReturnOptional.swift; sourceTree = "<group>"; };
-		3EA0529F1F27DDE70007D8D8 /* StrongifyFatalError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StrongifyFatalError.swift; path = Sources/StrongifyFatalError.swift; sourceTree = "<group>"; };
-		3EA052A01F27DDE70007D8D8 /* StrongifyReturn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StrongifyReturn.swift; path = Sources/StrongifyReturn.swift; sourceTree = "<group>"; };
+		3E756FEC1FCF14810098A802 /* Strongify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strongify.swift; sourceTree = "<group>"; };
+		3E756FED1FCF14810098A802 /* StrongifyFatalError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrongifyFatalError.swift; sourceTree = "<group>"; };
+		3E756FEE1FCF14810098A802 /* StrongifyFatalErrorReturn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrongifyFatalErrorReturn.swift; sourceTree = "<group>"; };
+		3E756FEF1FCF14810098A802 /* StrongifyFatalErrorReturnOptional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrongifyFatalErrorReturnOptional.swift; sourceTree = "<group>"; };
+		3E756FF01FCF14810098A802 /* StrongifyFatalErrorReturnOptionalThrows.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrongifyFatalErrorReturnOptionalThrows.swift; sourceTree = "<group>"; };
+		3E756FF11FCF14810098A802 /* StrongifyFatalErrorReturnThrows.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrongifyFatalErrorReturnThrows.swift; sourceTree = "<group>"; };
+		3E756FF21FCF14810098A802 /* StrongifyFatalErrorThrows.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrongifyFatalErrorThrows.swift; sourceTree = "<group>"; };
+		3E756FF31FCF14810098A802 /* StrongifyReturn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrongifyReturn.swift; sourceTree = "<group>"; };
+		3E756FF41FCF14810098A802 /* StrongifyReturnOptional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrongifyReturnOptional.swift; sourceTree = "<group>"; };
+		3E756FF51FCF14810098A802 /* StrongifyReturnOptionalThrows.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrongifyReturnOptionalThrows.swift; sourceTree = "<group>"; };
+		3E756FF61FCF14810098A802 /* StrongifyReturnThrows.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrongifyReturnThrows.swift; sourceTree = "<group>"; };
+		3E756FF71FCF14810098A802 /* StrongifyThrows.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrongifyThrows.swift; sourceTree = "<group>"; };
 		52D6D97C1BEFF229002C0205 /* Strongify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Strongify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9861BEFF229002C0205 /* Strongify-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Strongify-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		52D6D9961BEFF375002C0205 /* Strongify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Strongify.swift; path = Sources/Strongify.swift; sourceTree = "<group>"; };
 		52D6D9971BEFF375002C0205 /* StrongifyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StrongifyTests.swift; path = Tests/StrongifyTests/StrongifyTests.swift; sourceTree = "<group>"; };
 		52D6D9E21BEFFF6E002C0205 /* Strongify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Strongify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9F01BEFFFBE002C0205 /* Strongify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Strongify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,15 +168,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E756FEB1FCF14810098A802 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3E756FEC1FCF14810098A802 /* Strongify.swift */,
+				3E756FF71FCF14810098A802 /* StrongifyThrows.swift */,
+				3E756FF31FCF14810098A802 /* StrongifyReturn.swift */,
+				3E756FF61FCF14810098A802 /* StrongifyReturnThrows.swift */,
+				3E756FF41FCF14810098A802 /* StrongifyReturnOptional.swift */,
+				3E756FF51FCF14810098A802 /* StrongifyReturnOptionalThrows.swift */,
+				3E756FED1FCF14810098A802 /* StrongifyFatalError.swift */,
+				3E756FF21FCF14810098A802 /* StrongifyFatalErrorThrows.swift */,
+				3E756FEE1FCF14810098A802 /* StrongifyFatalErrorReturn.swift */,
+				3E756FF11FCF14810098A802 /* StrongifyFatalErrorReturnThrows.swift */,
+				3E756FEF1FCF14810098A802 /* StrongifyFatalErrorReturnOptional.swift */,
+				3E756FF01FCF14810098A802 /* StrongifyFatalErrorReturnOptionalThrows.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		52D6D9721BEFF229002C0205 = {
 			isa = PBXGroup;
 			children = (
-				52D6D9961BEFF375002C0205 /* Strongify.swift */,
-				3EA052A01F27DDE70007D8D8 /* StrongifyReturn.swift */,
-				3E45E0701F28738A00F88A65 /* StrongifyReturnOptional.swift */,
-				3EA0529F1F27DDE70007D8D8 /* StrongifyFatalError.swift */,
-				3E45E0751F287AC000F88A65 /* StrongifyFatalErrorReturn.swift */,
-				3E45E07A1F287B6300F88A65 /* StrongifyFatalErrorReturnOptional.swift */,
+				3E756FEB1FCF14810098A802 /* Sources */,
 				52D6D9971BEFF375002C0205 /* StrongifyTests.swift */,
 				52D6D99C1BEFF38C002C0205 /* Configs */,
 				52D6D97D1BEFF229002C0205 /* Products */,
@@ -360,7 +404,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0810;
-				ORGANIZATIONNAME = "Strongify";
+				ORGANIZATIONNAME = Strongify;
 				TargetAttributes = {
 					52D6D97B1BEFF229002C0205 = {
 						CreatedOnToolsVersion = 7.1;
@@ -472,12 +516,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52D6D9981BEFF375002C0205 /* Strongify.swift in Sources */,
-				3E45E0761F287AC000F88A65 /* StrongifyFatalErrorReturn.swift in Sources */,
-				3EA052A11F27DDE70007D8D8 /* StrongifyFatalError.swift in Sources */,
-				3E45E07B1F287B6300F88A65 /* StrongifyFatalErrorReturnOptional.swift in Sources */,
-				3EA052A51F27DDE70007D8D8 /* StrongifyReturn.swift in Sources */,
-				3E45E0711F28738A00F88A65 /* StrongifyReturnOptional.swift in Sources */,
+				3E7570241FCF14810098A802 /* StrongifyThrows.swift in Sources */,
+				3E7570201FCF14810098A802 /* StrongifyReturnThrows.swift in Sources */,
+				3E756FF81FCF14810098A802 /* Strongify.swift in Sources */,
+				3E756FFC1FCF14810098A802 /* StrongifyFatalError.swift in Sources */,
+				3E7570081FCF14810098A802 /* StrongifyFatalErrorReturnOptionalThrows.swift in Sources */,
+				3E7570101FCF14810098A802 /* StrongifyFatalErrorThrows.swift in Sources */,
+				3E75701C1FCF14810098A802 /* StrongifyReturnOptionalThrows.swift in Sources */,
+				3E7570001FCF14810098A802 /* StrongifyFatalErrorReturn.swift in Sources */,
+				3E7570141FCF14810098A802 /* StrongifyReturn.swift in Sources */,
+				3E75700C1FCF14810098A802 /* StrongifyFatalErrorReturnThrows.swift in Sources */,
+				3E7570181FCF14810098A802 /* StrongifyReturnOptional.swift in Sources */,
+				3E7570041FCF14810098A802 /* StrongifyFatalErrorReturnOptional.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,12 +543,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52D6D9EA1BEFFFA4002C0205 /* Strongify.swift in Sources */,
-				3E45E0781F287AC000F88A65 /* StrongifyFatalErrorReturn.swift in Sources */,
-				3EA052A31F27DDE70007D8D8 /* StrongifyFatalError.swift in Sources */,
-				3E45E07D1F287B6300F88A65 /* StrongifyFatalErrorReturnOptional.swift in Sources */,
-				3EA052A71F27DDE70007D8D8 /* StrongifyReturn.swift in Sources */,
-				3E45E0731F28738A00F88A65 /* StrongifyReturnOptional.swift in Sources */,
+				3E7570261FCF14810098A802 /* StrongifyThrows.swift in Sources */,
+				3E7570221FCF14810098A802 /* StrongifyReturnThrows.swift in Sources */,
+				3E756FFA1FCF14810098A802 /* Strongify.swift in Sources */,
+				3E756FFE1FCF14810098A802 /* StrongifyFatalError.swift in Sources */,
+				3E75700A1FCF14810098A802 /* StrongifyFatalErrorReturnOptionalThrows.swift in Sources */,
+				3E7570121FCF14810098A802 /* StrongifyFatalErrorThrows.swift in Sources */,
+				3E75701E1FCF14810098A802 /* StrongifyReturnOptionalThrows.swift in Sources */,
+				3E7570021FCF14810098A802 /* StrongifyFatalErrorReturn.swift in Sources */,
+				3E7570161FCF14810098A802 /* StrongifyReturn.swift in Sources */,
+				3E75700E1FCF14810098A802 /* StrongifyFatalErrorReturnThrows.swift in Sources */,
+				3E75701A1FCF14810098A802 /* StrongifyReturnOptional.swift in Sources */,
+				3E7570061FCF14810098A802 /* StrongifyFatalErrorReturnOptional.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,12 +562,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52D6DA091BF00081002C0205 /* Strongify.swift in Sources */,
-				3E45E0791F287AC000F88A65 /* StrongifyFatalErrorReturn.swift in Sources */,
-				3EA052A41F27DDE70007D8D8 /* StrongifyFatalError.swift in Sources */,
-				3E45E07E1F287B6300F88A65 /* StrongifyFatalErrorReturnOptional.swift in Sources */,
-				3EA052A81F27DDE70007D8D8 /* StrongifyReturn.swift in Sources */,
-				3E45E0741F28738A00F88A65 /* StrongifyReturnOptional.swift in Sources */,
+				3E7570271FCF14810098A802 /* StrongifyThrows.swift in Sources */,
+				3E7570231FCF14810098A802 /* StrongifyReturnThrows.swift in Sources */,
+				3E756FFB1FCF14810098A802 /* Strongify.swift in Sources */,
+				3E756FFF1FCF14810098A802 /* StrongifyFatalError.swift in Sources */,
+				3E75700B1FCF14810098A802 /* StrongifyFatalErrorReturnOptionalThrows.swift in Sources */,
+				3E7570131FCF14810098A802 /* StrongifyFatalErrorThrows.swift in Sources */,
+				3E75701F1FCF14810098A802 /* StrongifyReturnOptionalThrows.swift in Sources */,
+				3E7570031FCF14810098A802 /* StrongifyFatalErrorReturn.swift in Sources */,
+				3E7570171FCF14810098A802 /* StrongifyReturn.swift in Sources */,
+				3E75700F1FCF14810098A802 /* StrongifyFatalErrorReturnThrows.swift in Sources */,
+				3E75701B1FCF14810098A802 /* StrongifyReturnOptional.swift in Sources */,
+				3E7570071FCF14810098A802 /* StrongifyFatalErrorReturnOptional.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,12 +581,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52D6DA261BF00118002C0205 /* Strongify.swift in Sources */,
-				3E45E0771F287AC000F88A65 /* StrongifyFatalErrorReturn.swift in Sources */,
-				3EA052A21F27DDE70007D8D8 /* StrongifyFatalError.swift in Sources */,
-				3E45E07C1F287B6300F88A65 /* StrongifyFatalErrorReturnOptional.swift in Sources */,
-				3EA052A61F27DDE70007D8D8 /* StrongifyReturn.swift in Sources */,
-				3E45E0721F28738A00F88A65 /* StrongifyReturnOptional.swift in Sources */,
+				3E7570251FCF14810098A802 /* StrongifyThrows.swift in Sources */,
+				3E7570211FCF14810098A802 /* StrongifyReturnThrows.swift in Sources */,
+				3E756FF91FCF14810098A802 /* Strongify.swift in Sources */,
+				3E756FFD1FCF14810098A802 /* StrongifyFatalError.swift in Sources */,
+				3E7570091FCF14810098A802 /* StrongifyFatalErrorReturnOptionalThrows.swift in Sources */,
+				3E7570111FCF14810098A802 /* StrongifyFatalErrorThrows.swift in Sources */,
+				3E75701D1FCF14810098A802 /* StrongifyReturnOptionalThrows.swift in Sources */,
+				3E7570011FCF14810098A802 /* StrongifyFatalErrorReturn.swift in Sources */,
+				3E7570151FCF14810098A802 /* StrongifyReturn.swift in Sources */,
+				3E75700D1FCF14810098A802 /* StrongifyFatalErrorReturnThrows.swift in Sources */,
+				3E7570191FCF14810098A802 /* StrongifyReturnOptional.swift in Sources */,
+				3E7570051FCF14810098A802 /* StrongifyFatalErrorReturnOptional.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -708,6 +776,7 @@
 		52D6D9941BEFF229002C0205 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Configs/StrongifyTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -721,6 +790,7 @@
 		52D6D9951BEFF229002C0205 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Configs/StrongifyTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -871,6 +941,7 @@
 		DD7502831C68FCFC006590AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Configs/StrongifyTests.plist;
@@ -886,6 +957,7 @@
 		DD7502841C68FCFC006590AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Configs/StrongifyTests.plist;
@@ -902,6 +974,7 @@
 		DD7502961C690C7A006590AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = Configs/StrongifyTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Strongify.Strongify-tvOS-Tests";
@@ -915,6 +988,7 @@
 		DD7502971C690C7A006590AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = Configs/StrongifyTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Strongify.Strongify-tvOS-Tests";
