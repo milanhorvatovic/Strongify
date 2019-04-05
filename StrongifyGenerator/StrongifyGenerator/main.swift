@@ -93,12 +93,12 @@ enum GenerationType {
 }
 
 let combinations: [GenerationType] = [
-//    .base(throwable: false, returnType: .void),
-//    .base(throwable: false, returnType: .type),
-//    .base(throwable: false, returnType: .optional),
-//    .base(throwable: true, returnType: .void),
-//    .base(throwable: true, returnType: .type),
-//    .base(throwable: true, returnType: .optional),
+    .base(throwable: false, returnType: .void),
+    .base(throwable: false, returnType: .type),
+    .base(throwable: false, returnType: .optional),
+    .base(throwable: true, returnType: .void),
+    .base(throwable: true, returnType: .type),
+    .base(throwable: true, returnType: .optional),
     .fatalError(throwable: false, returnType: .void),
     .fatalError(throwable: false, returnType: .type),
     .fatalError(throwable: false, returnType: .optional),
@@ -165,7 +165,9 @@ func generate(contexts: UInt8 = 1, arguments: UInt8 = 0, type: GenerationType) -
     body += ", closure: @escaping ("
     if contextsParamDesc.count > 0 { body += contextsParamDesc.joined(separator: ", ") }
     if argumentsParamDesc.count > 0 { body += ", " + argumentsParamDesc.joined(separator: ", ") }
-    body += ")" + (type.throwable ? " throws" : "") + " -> " + type.`return`.funcDesc + ")" + (type.throwable ? " rethrows" : "") + " -> (("
+	//	NOTE: each strongify function doesn't need to be marked as rethrows because return statement is only closure block itself
+    //body += ")" + (type.throwable ? " throws" : "") + " -> " + type.`return`.funcDesc + ")" + (type.throwable ? " rethrows" : "") + " -> (("
+	body += ")" + (type.throwable ? " throws" : "") + " -> " + type.`return`.funcDesc + ")" + " -> (("
     if argumentsParamDesc.count > 0 { body += argumentsParamDesc.joined(separator: ", ") }
     body += ")" + (type.throwable ? " throws" : "") + " -> " + type.`return`.funcDesc + ") {\n"
     //  body
